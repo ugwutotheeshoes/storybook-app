@@ -7,14 +7,17 @@ import './button.css';
  */
 export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   return (
+    <div>
     <button
       type="button"
       className={['storybook-button', `storybook-button--${size}`].join(' ')}
+      id='button'
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
       {label}
     </button>
+    </div>
   );
 };
 
