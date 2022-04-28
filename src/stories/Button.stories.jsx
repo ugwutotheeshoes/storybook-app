@@ -23,6 +23,5 @@ Primary.play = async ({ args, canvasElement }) => {
 };
 
 Primary.args = {
-  // primary: true,
   label: "Button",
 };
